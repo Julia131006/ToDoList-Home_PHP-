@@ -1,0 +1,22 @@
+{
+    "name": "1111/lesson_mvc",
+    "authors": [
+        {
+            "name": "Bogdan-Shklanka2002",
+            "email": "bogdan.shklanka@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "controllers\\":"controllers/",
+            "models\\": "models/",
+            "core\\": "core/"
+        },
+        "files":[
+            "config/config.php"
+        ]
+    },
+    "require": {
+        "php": "^8.0"
+    }
+}
